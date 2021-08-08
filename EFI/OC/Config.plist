@@ -40,6 +40,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SMBU</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SMBU.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Add MCHC</string>
 				<key>Enabled</key>
 				<true/>
