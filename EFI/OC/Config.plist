@@ -980,17 +980,25 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>hda-idle-support</key>
 				<string>1</string>
 				<key>layout-id</key>
-				<data>HAAAAA==</data>
+				<data>IAAAAA==</data>
+				<key>model</key>
+				<string>Intel Wildcat Point-LP High Definition Audio Controller</string>
+				<key>name</key>
+				<string>Sound Card</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id 2</key>
+				<key>AAPL,ig-platform-id</key>
 				<data>BgAmFg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>FhYAAA==</data>
 				<key>framebuffer-con0-enable</key>
@@ -1020,7 +1028,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel HD Graphics 5500</string>
+				<string>HD Graphics 5500</string>
 				<key>name</key>
 				<string>GPU</string>
 			</dict>
